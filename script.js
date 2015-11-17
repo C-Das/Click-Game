@@ -3,9 +3,15 @@
 // click class has to count how many times its clicked //
 // # of clicks gets displayed in the "display" span //
 
-var bitcoins = document.getElementsByClass('click')
+var bitcoins = document.getElementsByClass('click');
+
+var startGame = document.getElementByClass('start');
+
+var score = 0;
+
+  for(var i = 0; i < bitcoins.length; i++) {
+    bitcoins[i].addEventListener("click", function counter() {
+     score = score + 1;
+     
 
 
-for(var i = 0; i < bitcoins.length; i++) {
-  bitcoins[i].addEventListener("click", function() {
-    alert("You clicked");
