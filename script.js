@@ -25,7 +25,7 @@ startGame.addEventListener("click", function () {
   }
 
   gameTimeout = setTimeout(function() {
-  ("You clicked " + score + " times");
+  alert("You clicked " + score + " times");
   }, 20000);
 
 });
