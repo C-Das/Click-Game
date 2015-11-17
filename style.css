@@ -1,8 +1,22 @@
 .page-header {
-  background-color: #000;
+  background-color: #4D4D4D;
   text-align: center;
   margin-top: 0;
 }
+
+.page-header h1 {
+  color: #F7931A;
+}
+
+.page-header small {
+  color: #F7931A;
+}
+
+.page-header strong {
+  color: #337AB7;
+}
+
+
 
 button {
   margin-left: 25px;
@@ -33,4 +47,5 @@ button {
 .table {
   border-style: solid;
   border-width: 5px;
+  border-color: #4D4D4D;
 }
