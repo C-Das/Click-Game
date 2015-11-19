@@ -25,7 +25,7 @@ startGame.addEventListener("click", function () {
   }
 
   gameTimeout = setTimeout(function() {
-  alert("You clicked on " + score + " Bitcoins");
+  result.innerHTML=score;
   }, 20000);
 
 });
