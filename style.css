@@ -3,25 +3,15 @@
   text-align: center;
   margin-top: 0;
 }
-
-.page-header h1 {
+.page-header h1,small{
   color: #F7931A;
 }
-
-.page-header small {
-  color: #F7931A;
-}
-
 .page-header strong {
   color: #337AB7;
 }
-
-
-
 button {
   margin-left: 25px;
 }
-
 .click {
   display: block;
   margin-left: auto;
@@ -29,11 +19,9 @@ button {
   width: 85px;
   height: 85px;
 }
-
 .result {
   text-align: center;
 }
-
 .well {
   text-align: center;
   padding-right: 5px;
@@ -43,9 +31,12 @@ button {
   padding-top: 5px;
   width: 60;
 }
-
 .table {
   border-style: solid;
-  border-width: 5px;
+  border-width: 5px;  
   border-color: #4D4D4D;
+}
+#verifiedBy {
+  /*position: fixed;*/
+  margin-right: 0; 
 }
